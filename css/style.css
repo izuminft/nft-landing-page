@@ -8,10 +8,10 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --bg-color: #ffd3f0;
+  --font-color: #000000;
+  --btn-bg-color: #3f092a;
+  --accent-color: #f6e9ff;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -28,6 +28,18 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+}
+
+.countdown video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: -2;
 }
 
 .container {
