@@ -32,9 +32,11 @@ body {
 
 .countdown video {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
   padding: 0px 0px;
   display: flex;
   align-items: center;
